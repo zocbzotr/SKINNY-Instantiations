@@ -144,10 +144,10 @@ void block_rndfill(unsigned char *buf, const int len)
 	}
 }
 
-const int loops = 100;  
+const int loops = 100;
 
-#define SAMPLE1  1000
-#define SAMPLE2 10000
+#define SAMPLE1  100
+#define SAMPLE2 1000
 
 #define TRUE  1
 #define FALSE 0
